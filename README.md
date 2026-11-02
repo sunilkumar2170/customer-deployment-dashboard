@@ -192,6 +192,4 @@ Backend: ring buffer eviction, ordering and downsampling; SQLite round-trip, pru
 - [ ] Server-side downsampled history for the 1h range to shrink the snapshot payload (#4)
 - [ ] Auth on the rules API (#5)
 
-## License
 
-MIT © 2026 Akib Jafor

@@ -184,14 +184,4 @@ cd frontend && npm test                       # 21 tests
 
 Backend: ring buffer eviction, ordering and downsampling; SQLite round-trip, prune and warm start; alert duration, reset, resolve TTL, per-node state, filters, rule updates; fleet determinism, bounds and incidents; REST history/range/step validation, rule CRUD; WebSocket snapshot, live tick and ping/pong through `TestClient`. Frontend: reducer (snapshot, tick, out-of-order, retention trim, notification merge, reconnect), range filtering, fleet average, formatting, backoff schedule, series merging, and rendering/interaction of NodeGrid, TimeRangeSelector, ConnectionBadge and AlertsPanel.
 
-## Roadmap
 
-- [ ] Pluggable collectors for remote agents (push over HTTP) and an OpenStack Nova hypervisor stats collector (#1)
-- [ ] Webhook / email notifier behind the notification log (#2)
-- [ ] Per-rule silences and maintenance windows (#3)
-- [ ] Server-side downsampled history for the 1h range to shrink the snapshot payload (#4)
-- [ ] Auth on the rules API (#5)
-
-## License
-
-MIT © 2026 Akib Jafor
